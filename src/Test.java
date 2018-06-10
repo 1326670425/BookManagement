@@ -9,13 +9,13 @@ public class Test{
         try{  
             FileInputStream fis = new FileInputStream("G://test.txt");  
             JFrame jf=new JFrame();  
-            jf.setLayout(null);  
+            jf.setLayout(null);
             Container container=jf.getContentPane();  
               
             JTextArea jta=new JTextArea();  
             JScrollPane jsp=new JScrollPane(jta);  
             jsp.setBounds(0,0, 1200,300);  
-              
+            
             container.add(jsp);  
             jf.setTitle("test");  
             jf.setVisible(true);  
